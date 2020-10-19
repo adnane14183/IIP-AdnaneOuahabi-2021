@@ -10,6 +10,8 @@ namespace ConsoleMusicPlayer
     {
         static void Main(string[] args)
         {
+            WindowsMediaPlayer Player = new WindowsMediaPlayer();
+            Player.URL = 
         }
     }
 }

@@ -1,0 +1,7 @@
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\ConsoleHelloWorld\bin\Debug\ConsoleHelloWorld.exe.config
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\ConsoleHelloWorld\bin\Debug\ConsoleHelloWorld.exe
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\ConsoleHelloWorld\bin\Debug\ConsoleHelloWorld.pdb
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\ConsoleHelloWorld\obj\Debug\ConsoleHelloWorld.csprojAssemblyReference.cache
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\ConsoleHelloWorld\obj\Debug\ConsoleHelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\ConsoleHelloWorld\obj\Debug\ConsoleHelloWorld.exe
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\ConsoleHelloWorld\obj\Debug\ConsoleHelloWorld.pdb

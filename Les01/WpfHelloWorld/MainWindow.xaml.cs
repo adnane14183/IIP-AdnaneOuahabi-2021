@@ -24,5 +24,11 @@ namespace WpfHelloWorld
         {
             InitializeComponent();
         }
+
+        private void BtnOk_Click(object sender, RoutedEventArgs e)
+        {
+            LblWelkom.Content = "Hallo, " + TxtName.Text;
+            TxtName.Text = "";
+        }
     }
 }

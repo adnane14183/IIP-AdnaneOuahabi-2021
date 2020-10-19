@@ -1,0 +1,15 @@
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfHelloWorld\bin\Debug\WpfHelloWorld.exe.config
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfHelloWorld\bin\Debug\WpfHelloWorld.exe
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfHelloWorld\bin\Debug\WpfHelloWorld.pdb
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfHelloWorld\obj\Debug\WpfHelloWorld.csprojAssemblyReference.cache
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfHelloWorld\obj\Debug\MainWindow.g.cs
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfHelloWorld\obj\Debug\App.g.cs
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfHelloWorld\obj\Debug\WpfHelloWorld_MarkupCompile.cache
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfHelloWorld\obj\Debug\WpfHelloWorld_MarkupCompile.lref
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfHelloWorld\obj\Debug\MainWindow.baml
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfHelloWorld\obj\Debug\WpfHelloWorld.g.resources
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfHelloWorld\obj\Debug\WpfHelloWorld.Properties.Resources.resources
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfHelloWorld\obj\Debug\WpfHelloWorld.csproj.GenerateResource.cache
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfHelloWorld\obj\Debug\WpfHelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfHelloWorld\obj\Debug\WpfHelloWorld.exe
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfHelloWorld\obj\Debug\WpfHelloWorld.pdb
