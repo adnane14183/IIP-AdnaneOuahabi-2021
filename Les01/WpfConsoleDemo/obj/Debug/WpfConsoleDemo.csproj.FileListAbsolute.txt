@@ -1,0 +1,14 @@
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfConsoleDemo\bin\Debug\WpfConsoleDemo.exe.config
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfConsoleDemo\bin\Debug\WpfConsoleDemo.exe
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfConsoleDemo\bin\Debug\WpfConsoleDemo.pdb
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfConsoleDemo\obj\Debug\MainWindow.g.cs
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfConsoleDemo\obj\Debug\App.g.cs
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfConsoleDemo\obj\Debug\WpfConsoleDemo_MarkupCompile.cache
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfConsoleDemo\obj\Debug\WpfConsoleDemo_MarkupCompile.lref
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfConsoleDemo\obj\Debug\MainWindow.baml
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfConsoleDemo\obj\Debug\WpfConsoleDemo.g.resources
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfConsoleDemo\obj\Debug\WpfConsoleDemo.Properties.Resources.resources
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfConsoleDemo\obj\Debug\WpfConsoleDemo.csproj.GenerateResource.cache
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfConsoleDemo\obj\Debug\WpfConsoleDemo.csproj.CoreCompileInputs.cache
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfConsoleDemo\obj\Debug\WpfConsoleDemo.exe
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\WpfConsoleDemo\obj\Debug\WpfConsoleDemo.pdb
