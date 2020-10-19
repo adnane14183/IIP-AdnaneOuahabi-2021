@@ -1,0 +1,14 @@
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\Wpf Control yes or no 2\obj\Debug\MainWindow.g.cs
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\Wpf Control yes or no 2\obj\Debug\App.g.cs
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\Wpf Control yes or no 2\obj\Debug\Wpf Control yes or no 2_MarkupCompile.cache
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\Wpf Control yes or no 2\obj\Debug\Wpf Control yes or no 2_MarkupCompile.lref
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\Wpf Control yes or no 2\bin\Debug\Wpf Control yes or no 2.exe.config
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\Wpf Control yes or no 2\bin\Debug\Wpf Control yes or no 2.exe
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\Wpf Control yes or no 2\bin\Debug\Wpf Control yes or no 2.pdb
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\Wpf Control yes or no 2\obj\Debug\MainWindow.baml
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\Wpf Control yes or no 2\obj\Debug\Wpf Control yes or no 2.g.resources
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\Wpf Control yes or no 2\obj\Debug\Wpf_Control_yes_or_no_2.Properties.Resources.resources
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\Wpf Control yes or no 2\obj\Debug\Wpf Control yes or no 2.csproj.GenerateResource.cache
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\Wpf Control yes or no 2\obj\Debug\Wpf Control yes or no 2.csproj.CoreCompileInputs.cache
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\Wpf Control yes or no 2\obj\Debug\Wpf Control yes or no 2.exe
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\Wpf Control yes or no 2\obj\Debug\Wpf Control yes or no 2.pdb

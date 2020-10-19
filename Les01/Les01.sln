@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfConsoleDemo", "WpfConsol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf Control  yes or no", "Wpf Control  yes or no\Wpf Control  yes or no.csproj", "{9727F093-A3AE-4D12-81AD-3E18F60BB3EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf Control yes or no 2", "Wpf Control yes or no 2\Wpf Control yes or no 2.csproj", "{CDD62926-74AB-4476-AE18-EF9E6B7A5F7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{9727F093-A3AE-4D12-81AD-3E18F60BB3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9727F093-A3AE-4D12-81AD-3E18F60BB3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9727F093-A3AE-4D12-81AD-3E18F60BB3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD62926-74AB-4476-AE18-EF9E6B7A5F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD62926-74AB-4476-AE18-EF9E6B7A5F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD62926-74AB-4476-AE18-EF9E6B7A5F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD62926-74AB-4476-AE18-EF9E6B7A5F7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

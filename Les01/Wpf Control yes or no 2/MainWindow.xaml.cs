@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Wpf_Control__yes_or_no
+namespace Wpf_Control_yes_or_no_2
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -25,24 +25,10 @@ namespace Wpf_Control__yes_or_no
             InitializeComponent();
         }
 
-        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        private void ChbYesNo_Click(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void CheckBox_Checked_1(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void ChbYesNo_Checked(object sender, RoutedEventArgs e)
-        {
-            LblMessage.Content = "ja  mee eens";
-        }
-
-        private void ChbYesNo_Unchecked(object sender, RoutedEventArgs e)
-        {
-            LblMessage.Content = " nee niet mee eens";
+            if (ChbYesNo.IsChecked == true) LblMessage.Content = "ja, mee eens";
+            if (ChbYesNo.IsChecked == false) LblMessage.Content = "nee, niet mee ens";
         }
     }
 }

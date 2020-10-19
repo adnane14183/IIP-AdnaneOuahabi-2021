@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_Control__yes_or_no"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Wpf yes or no" Height="450" Width="800">
     <Grid>
-        
+        <Label x:Name="LblMessage" Content="..." HorizontalAlignment="Left" Margin="106,89,0,0" VerticalAlignment="Top" FontSize="20" Width="322"/>
+        <CheckBox x:Name="ChbYesNo" Content="Mee eens of niet?" HorizontalAlignment="Left" Margin="153,180,0,0" VerticalAlignment="Top" Height="30" Width="191" Checked="ChbYesNo_Checked" Unchecked="ChbYesNo_Unchecked"/>
+
     </Grid>
 </Window>
