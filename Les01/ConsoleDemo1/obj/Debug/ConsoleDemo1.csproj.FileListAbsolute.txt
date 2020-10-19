@@ -1,0 +1,6 @@
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\ConsoleDemo1\obj\Debug\ConsoleDemo1.csproj.CoreCompileInputs.cache
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\ConsoleDemo1\bin\Debug\ConsoleDemo1.exe.config
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\ConsoleDemo1\bin\Debug\ConsoleDemo1.exe
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\ConsoleDemo1\bin\Debug\ConsoleDemo1.pdb
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\ConsoleDemo1\obj\Debug\ConsoleDemo1.exe
+C:\Users\Adnan\source\repos\IIP-AdnaneOuahabi-2021\Les01\ConsoleDemo1\obj\Debug\ConsoleDemo1.pdb
