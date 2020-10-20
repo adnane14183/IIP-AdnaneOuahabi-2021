@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpfchat", "Wpfchat\Wpfchat.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfSlider", "WpfSlider\WpfSlider.csproj", "{959A47A5-C4BA-451A-80FB-8BD5337477D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfPizza", "WpfPizza\WpfPizza.csproj", "{C707375C-7A4C-4DDC-BC9B-598DC7D559C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{959A47A5-C4BA-451A-80FB-8BD5337477D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{959A47A5-C4BA-451A-80FB-8BD5337477D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{959A47A5-C4BA-451A-80FB-8BD5337477D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C707375C-7A4C-4DDC-BC9B-598DC7D559C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C707375C-7A4C-4DDC-BC9B-598DC7D559C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C707375C-7A4C-4DDC-BC9B-598DC7D559C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C707375C-7A4C-4DDC-BC9B-598DC7D559C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
