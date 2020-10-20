@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleHello", "ConsoleHello\ConsoleHello.csproj", "{3D679806-E4CA-4FCB-9BD7-A73AB6552185}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleGedicht", "ConsoleGedicht\ConsoleGedicht.csproj", "{CEE1F8C6-3BD4-4FEA-8EA3-5FC9D1FCB467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAsciiArt", "ConsoleAsciiArt\ConsoleAsciiArt.csproj", "{41D6770E-A1E6-40FC-B9C7-5A093F4ADC1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{3D679806-E4CA-4FCB-9BD7-A73AB6552185}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D679806-E4CA-4FCB-9BD7-A73AB6552185}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D679806-E4CA-4FCB-9BD7-A73AB6552185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE1F8C6-3BD4-4FEA-8EA3-5FC9D1FCB467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE1F8C6-3BD4-4FEA-8EA3-5FC9D1FCB467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE1F8C6-3BD4-4FEA-8EA3-5FC9D1FCB467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE1F8C6-3BD4-4FEA-8EA3-5FC9D1FCB467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41D6770E-A1E6-40FC-B9C7-5A093F4ADC1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D6770E-A1E6-40FC-B9C7-5A093F4ADC1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D6770E-A1E6-40FC-B9C7-5A093F4ADC1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D6770E-A1E6-40FC-B9C7-5A093F4ADC1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
