@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="Wpf Slider" Height="450" Width="800">
     <Grid Background="#FF99C3F7">
-        <Label x:Name="LblVolume" Content="50" HorizontalAlignment="Left" Margin="163,295,0,0" VerticalAlignment="Top" Height="48" Width="326" FontSize="36" HorizontalContentAlignment="Center" Background="#FF99C3F7"/>
-        <Slider x:Name="SldVolume" IsSnapToTickEnabled="True" TickFrequency="5"  Minimum="0" Maximum="100" Value="50" HorizontalAlignment="Left" Margin="48,225,0,0" VerticalAlignment="Top" ValueChanged="Slider_ValueChanged" Height="42" Width="699" FontSize="72"/>
+        <Label x:Name="LblVolume" Content="0" HorizontalAlignment="Left" Margin="163,295,0,0" VerticalAlignment="Top" Height="48" Width="326" FontSize="36" HorizontalContentAlignment="Center" Background="#FF99C3F7"/>
+        <Slider x:Name="SldVolume" IsSnapToTickEnabled="True" TickFrequency="5"  Minimum="0" Maximum="100" Value="0" HorizontalAlignment="Left" Margin="48,225,0,0" VerticalAlignment="Top" ValueChanged="Slider_ValueChanged" Height="42" Width="699" FontSize="72"/>
 
     </Grid>
 </Window>
