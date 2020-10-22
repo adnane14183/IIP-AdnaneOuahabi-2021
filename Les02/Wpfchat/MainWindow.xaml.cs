@@ -37,10 +37,11 @@ namespace Wpfchat
 
         private void BtnVerzenden_Click(object sender, RoutedEventArgs e)
         {
-            String naam, bericht;
+            String naam, bericht, chat;
+            chat = TxtBchat.Text;
             naam = TxtNaam.Text;
             bericht = Txtbericht.Text;
-            TxtBchat.Text = naam + " " + "says :" + Environment.NewLine + bericht;
+            TxtBchat.Text = chat + Environment.NewLine + naam + " " + "says :" + Environment.NewLine + bericht;
             TxtNaam.Text = " ";
             Txtbericht.Text = " ";
         }

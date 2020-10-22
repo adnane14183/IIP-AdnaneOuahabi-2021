@@ -33,8 +33,8 @@ namespace WpfBmi
 
         private void BtnBmi_Click(object sender, RoutedEventArgs e)
         {
-            lengte = Double.Parse(txtLengte.Text);
-            gewicht = Double.Parse(TxtGewicht.Text);
+            lengte = Convert.ToDouble(txtLengte.Text);
+            gewicht = Convert.ToDouble(TxtGewicht.Text);
 
             total1 = Convert.ToDouble(lengte) / Convert.ToDouble(100);
             total2 = Convert.ToDouble(gewicht) / (Convert.ToDouble(total1) * total1);
