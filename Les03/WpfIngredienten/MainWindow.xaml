@@ -1,0 +1,77 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="451.016" Width="662.867">
+    <Grid>
+        <Label Content="Ingrediënten" HorizontalAlignment="Left" Margin="22,26,0,0" VerticalAlignment="Top" Width="106" FontWeight="Bold"/>
+        <Label Content="Aantal personen:" HorizontalAlignment="Left" Margin="22,70,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ingrediënten per persooon:" HorizontalAlignment="Left" Margin="22,109,0,0" VerticalAlignment="Top" Width="202"/>
+        <TextBox x:Name="txtHoeveelheid1" HorizontalAlignment="Left" Height="23" Margin="22,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Hoeveelheid:" HorizontalAlignment="Left" Margin="22,140,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Eenheid:" HorizontalAlignment="Left" Margin="202,140,0,0" VerticalAlignment="Top" Width="84"/>
+        <Label Content="Ingrediënt:" HorizontalAlignment="Left" Margin="352,140,0,0" VerticalAlignment="Top" Width="73" RenderTransformOrigin="0.455,0.094"/>
+        <Label Content="Boodschappenlijst" HorizontalAlignment="Left" Margin="488,140,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.281,-0.406" Width="117"/>
+        <TextBox x:Name="txtHoevelheid2" HorizontalAlignment="Left" Height="23" Margin="22,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtHoeveelheid3" HorizontalAlignment="Left" Height="23" Margin="22,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TxtHoeveelheid4" HorizontalAlignment="Left" Height="23" Margin="22,284,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtIngredient1" HorizontalAlignment="Left" Height="23" Margin="340,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtIngredient2" HorizontalAlignment="Left" Height="23" Margin="340,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtIngredient3" HorizontalAlignment="Left" Height="23" Margin="340,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtIngredient4" HorizontalAlignment="Left" Height="23" Margin="340,284,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtLijst" HorizontalAlignment="Left" Height="136" Margin="485,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnMaken" Content="MAAK BOODSCHAPPENLIJST" HorizontalAlignment="Left" Margin="160,326,0,0" VerticalAlignment="Top" Width="170" Height="30" FontWeight="Bold" Click="btnMaken_Click"/>
+        <ComboBox x:Name="cbxPersonen" HorizontalAlignment="Left" Margin="146,73,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="118.4"/>
+        </ComboBox>
+        <ComboBox x:Name="cbxEenheid1" HorizontalAlignment="Left" Margin="178,172,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="g" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="kg" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="ml" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="cl" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="dl" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="l" HorizontalAlignment="Left" Width="118.4"/>
+        </ComboBox>
+        <ComboBox x:Name="cbxEenheid2" HorizontalAlignment="Left" Margin="178,211,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="g" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="kg" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="ml" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="cl" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="dl" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="l" HorizontalAlignment="Left" Width="118.4"/>
+        </ComboBox>
+        <ComboBox x:Name="cbxEenheid3" HorizontalAlignment="Left" Margin="178,248,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="g" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="kg" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="ml" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="cl" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="dl" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="l" HorizontalAlignment="Left" Width="118.4"/>
+        </ComboBox>
+        <ComboBox x:Name="cbxEenheid4" HorizontalAlignment="Left" Margin="178,285,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="g" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="kg" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="ml" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="cl" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="dl" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="l" HorizontalAlignment="Left" Width="118.4"/>
+        </ComboBox>
+
+    </Grid>
+</Window>
