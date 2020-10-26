@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleEindcijfer", "Consol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBestelling", "ConsoleBestelling\ConsoleBestelling.csproj", "{96F52801-CEAA-45E3-998D-4A28D406D0FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfBieden", "WpfBieden\WpfBieden.csproj", "{B416C6DD-549A-4315-B28F-6D8E49C19107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfSlidekleur", "WpfSlidekleur\WpfSlidekleur.csproj", "{5BF7AC5D-04E1-4E69-AAB4-4DB0017A9056}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{96F52801-CEAA-45E3-998D-4A28D406D0FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96F52801-CEAA-45E3-998D-4A28D406D0FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96F52801-CEAA-45E3-998D-4A28D406D0FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B416C6DD-549A-4315-B28F-6D8E49C19107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B416C6DD-549A-4315-B28F-6D8E49C19107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B416C6DD-549A-4315-B28F-6D8E49C19107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B416C6DD-549A-4315-B28F-6D8E49C19107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BF7AC5D-04E1-4E69-AAB4-4DB0017A9056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BF7AC5D-04E1-4E69-AAB4-4DB0017A9056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BF7AC5D-04E1-4E69-AAB4-4DB0017A9056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BF7AC5D-04E1-4E69-AAB4-4DB0017A9056}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
