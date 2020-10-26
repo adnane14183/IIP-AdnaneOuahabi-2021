@@ -20,6 +20,8 @@ namespace WpfBieden
     /// </summary>
     public partial class MainWindow : Window
     {
+        int hoogstebod = 0;
+        string bieder;
         public MainWindow()
         {
             InitializeComponent();
@@ -28,19 +30,19 @@ namespace WpfBieden
         private void btnPlaats_Click(object sender, RoutedEventArgs e)
         {
             string name = txtNaam.Text;
-            string bod1= txtBod.Text;
+            string bod1 = txtBod.Text;
             int bod = Convert.ToInt32(bod1);
-            int hoogstebod = 0;
 
             if (bod > hoogstebod)
             {
                 lblMessage.Content = $" {name} heeft met {bod} het hoogste bod.";
                 hoogstebod = bod;
             }
-           else
+            else
             {
-                lblMessage.Content = $"Is niet het hoogste bod";
-            }
+                lblMessage.Content = $"Sorry, {name} heeft een hogere bod";
+                bieder = name;
             }
         }
     }
+}
