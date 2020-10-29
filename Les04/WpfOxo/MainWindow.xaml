@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfOxo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfOxo"
+        mc:Ignorable="d"
+        Title="OXO" Height="476.659" Width="800">
+    <Grid>
+        <Button x:Name="btnOxo1" Content="" HorizontalAlignment="Left" Margin="53,23,0,0" VerticalAlignment="Top" Width="156" Height="121" Click="btnOxo1_Click"/>
+        <Button x:Name="btnOxo6" Content="" HorizontalAlignment="Left" Margin="399,163,0,0" VerticalAlignment="Top" Width="156" Height="121" Click="btnOxo1_Click"/>
+        <Button x:Name="btnOxo5" Content="" HorizontalAlignment="Left" Margin="226,163,0,0" VerticalAlignment="Top" Width="156" Height="121" Click="btnOxo1_Click"/>
+        <Button x:Name="btnOxo2" Content="" HorizontalAlignment="Left" Margin="226,23,0,0" VerticalAlignment="Top" Width="156" Height="121" Click="btnOxo1_Click"/>
+        <Button x:Name="btnOxo4" Content="" HorizontalAlignment="Left" Margin="53,163,0,0" VerticalAlignment="Top" Width="156" Height="121" Click="btnOxo1_Click"/>
+        <Button x:Name="btnOxo8" Content="" HorizontalAlignment="Left" Margin="226,299,0,0" VerticalAlignment="Top" Width="156" Height="121" RenderTransformOrigin="0.501,0.163" Click="btnOxo1_Click"/>
+        <Button x:Name="btnOxo7" Content="" HorizontalAlignment="Left" Margin="53,299,0,0" VerticalAlignment="Top" Width="156" Height="121" Click="btnOxo1_Click"/>
+        <Button x:Name="btnOxo3" Content="" HorizontalAlignment="Left" Margin="399,23,0,0" VerticalAlignment="Top" Width="156" Height="121" Click="btnOxo1_Click"/>
+        <Button x:Name="btnOxo9" Content="" HorizontalAlignment="Left" Margin="399,299,0,0" VerticalAlignment="Top" Width="156" Height="121" Click="btnOxo1_Click"/>
+        <Label x:Name="lblWin" Content="" HorizontalAlignment="Left" Margin="596,356,0,0" VerticalAlignment="Top" Width="132" Height="49"/>
+        <Label Content="Speler 1 = x&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Speler 2 = 0" HorizontalAlignment="Left" Margin="596,57,0,0" VerticalAlignment="Top" Height="121" Width="167" FontSize="18"/>
+
+    </Grid>
+</Window>
