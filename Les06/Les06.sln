@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleRaden", "ConsoleRade
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDeling", "ConsoleDeling\ConsoleDeling.csproj", "{740657F1-6D27-4930-A73C-A9AB35F20FD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfPriemgetal", "WpfPriemgetal\WpfPriemgetal.csproj", "{269A7EE4-3E3B-4891-B145-C520795C42A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{740657F1-6D27-4930-A73C-A9AB35F20FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{740657F1-6D27-4930-A73C-A9AB35F20FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{740657F1-6D27-4930-A73C-A9AB35F20FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{269A7EE4-3E3B-4891-B145-C520795C42A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{269A7EE4-3E3B-4891-B145-C520795C42A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{269A7EE4-3E3B-4891-B145-C520795C42A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{269A7EE4-3E3B-4891-B145-C520795C42A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
