@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDeling", "ConsoleDel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfPriemgetal", "WpfPriemgetal\WpfPriemgetal.csproj", "{269A7EE4-3E3B-4891-B145-C520795C42A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfBoodschappenlijst", "WpfBoodschappenlijst\WpfBoodschappenlijst.csproj", "{71A5EF00-7C5C-4F1A-BC51-9DDA14E27215}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfFormChecking", "WpfFormChecking\WpfFormChecking.csproj", "{15378B97-2DC2-4B1E-AF89-3C152DD07425}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{269A7EE4-3E3B-4891-B145-C520795C42A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{269A7EE4-3E3B-4891-B145-C520795C42A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{269A7EE4-3E3B-4891-B145-C520795C42A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71A5EF00-7C5C-4F1A-BC51-9DDA14E27215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A5EF00-7C5C-4F1A-BC51-9DDA14E27215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A5EF00-7C5C-4F1A-BC51-9DDA14E27215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A5EF00-7C5C-4F1A-BC51-9DDA14E27215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15378B97-2DC2-4B1E-AF89-3C152DD07425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15378B97-2DC2-4B1E-AF89-3C152DD07425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15378B97-2DC2-4B1E-AF89-3C152DD07425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15378B97-2DC2-4B1E-AF89-3C152DD07425}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
