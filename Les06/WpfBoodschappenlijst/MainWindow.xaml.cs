@@ -29,7 +29,7 @@ namespace WpfBoodschappenlijst
         private void cbxLijst_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             ComboBoxItem selecteditem = (ComboBoxItem) cbxLijst.SelectedItem;
-            lblBoodschappen.Content = selecteditem.Content;
+            lblBoodschappen.Content += selecteditem.Content + " ";
         }
     }
 }
