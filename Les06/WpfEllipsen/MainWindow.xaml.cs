@@ -29,14 +29,14 @@ namespace WpfEllipsen
         {
             Random rnd = new Random();
 
-            for (int teller = 1; teller <= teller++;) 
+            for (int teller = 50; teller <= teller++;) 
             {
                 Ellipse newEllipse = new Ellipse();
                 newEllipse.Width = rnd.Next(0, 250);
                 newEllipse.Height = rnd.Next(0, 250);
                 newEllipse.Fill = new SolidColorBrush(Color.FromRgb(122, 78, 200));
-                double xPos = rnd.Next(0, 1000);
-                double yPos = rnd.Next(0, 1000);
+                double xPos = rnd.Next(0, 500);
+                double yPos = rnd.Next(0, 500);
                 newEllipse.SetValue(Canvas.LeftProperty, xPos);
                 newEllipse.SetValue(Canvas.TopProperty, yPos);
                 //voeg ellips toe aan het canvas

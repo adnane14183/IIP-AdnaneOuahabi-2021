@@ -25,11 +25,16 @@ namespace WpfBoodschappenlijst
         {
             InitializeComponent();
         }
-
-        private void cbxLijst_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void ListBoxItem_Selected(object sender, RoutedEventArgs e)
         {
-            ComboBoxItem selecteditem = (ComboBoxItem) cbxLijst.SelectedItem;
-            lblBoodschappen.Content += selecteditem.Content + " ";
+            
+        }
+
+        private void lbmBoodschappen_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            ListBoxItem selected = (ListBoxItem)lbmBoodschappen.SelectedItems;
+
+            lblBoodschappen.Content += selected.Content + " ";
         }
     }
 }

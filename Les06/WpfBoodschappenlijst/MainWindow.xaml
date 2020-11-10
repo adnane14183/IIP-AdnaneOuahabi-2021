@@ -6,14 +6,15 @@
         xmlns:local="clr-namespace:WpfBoodschappenlijst"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Margin="0,3,-0.4,-3">
         <Label x:Name="lblBoodschappen" Content="" HorizontalAlignment="Left" Margin="254,66,0,0" VerticalAlignment="Top" Height="171" Width="300"/>
-        <ComboBox x:Name="cbxLijst" HorizontalAlignment="Left" Margin="79,175,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cbxLijst_SelectionChanged">
-            <ComboBoxItem Content="appels" HorizontalAlignment="Left" Width="118.4"/>
-            <ComboBoxItem Content="melk" HorizontalAlignment="Left" Width="118.4"/>
-            <ComboBoxItem Content="kaas" HorizontalAlignment="Left" Width="118.4"/>
-            <ComboBoxItem Content="olijven" HorizontalAlignment="Left" Width="118.4"/>
-        </ComboBox>
+        <ListBox Name="lbmBoodschappen" HorizontalAlignment="Left" Height="100" Margin="113,263,0,0" VerticalAlignment="Top" Width="100" SelectionChanged="lbmBoodschappen_SelectionChanged">
+            <ListBoxItem Content="kaas" Selected="ListBoxItem_Selected"/>
+            <ListBoxItem Content="olijven"/>
+            <ListBoxItem Content="brood"/>
+            <ListBoxItem Content="drank"/>
+            <ListBoxItem Content="appelen"/>
+        </ListBox>
 
     </Grid>
 </Window>
