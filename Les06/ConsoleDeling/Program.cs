@@ -14,6 +14,7 @@ namespace ConsoleDeling
             int getal1 = 0;
             int getal2 = 0;
             
+            
 
             Console.WriteLine("Bereken de grootst gemeenschappelijk deler");
             Console.WriteLine("==========================================");
@@ -23,16 +24,17 @@ namespace ConsoleDeling
             Console.Write("Getal 2: ");
             getal2 = Convert.ToInt32(Console.ReadLine());
 
-            int som1 = getal1 - getal2;
-            int som2 = getal2 - getal1;
+            int ggd = Math.Min(getal1, getal2);
 
-            if (getal1 == getal2) { Console.WriteLine("Dit is niet mogelijk"); }
-            else if (getal1 > getal2) { Console.WriteLine($" De ggd is {som1}"); }
-            else
+            while (getal1 % ggd != 0 || getal2 % ggd != 0)
             {
-                Console.WriteLine($"de ggd is {som2}");
+                ggd--;
             }
-            Console.ReadKey();
+            
+
+            Console.WriteLine($"De ggd is {ggd}");
+
+            Console.ReadLine();
         }
     }
 }

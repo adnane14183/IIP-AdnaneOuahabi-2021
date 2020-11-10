@@ -28,16 +28,20 @@ namespace WpfEllipsen
         private void btnTekenen_Click(object sender, RoutedEventArgs e)
         {
             Random rnd = new Random();
-            Ellipse newEllipse = new Ellipse();
-            newEllipse.Width = 150;
-            newEllipse.Height = 60;
-            newEllipse.Fill = new SolidColorBrush(Color.FromRgb(122, 78, 200));
-            double xPos = 50;
-            double yPos = 85;
-            newEllipse.SetValue(Canvas.LeftProperty, xPos);
-            newEllipse.SetValue(Canvas.TopProperty, yPos);
-            //voeg ellips toe aan het canvas
-            canvas1.Children.Add(newEllipse);
+
+            for (int teller = 1; teller <= teller++;) 
+            {
+                Ellipse newEllipse = new Ellipse();
+                newEllipse.Width = rnd.Next(0, 250);
+                newEllipse.Height = rnd.Next(0, 250);
+                newEllipse.Fill = new SolidColorBrush(Color.FromRgb(122, 78, 200));
+                double xPos = rnd.Next(0, 1000);
+                double yPos = rnd.Next(0, 1000);
+                newEllipse.SetValue(Canvas.LeftProperty, xPos);
+                newEllipse.SetValue(Canvas.TopProperty, yPos);
+                //voeg ellips toe aan het canvas
+                canvas1.Children.Add(newEllipse);
+            }
         }
     }
 }
