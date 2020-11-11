@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfCarConfigurator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfCarConfigurator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,2,-0.4,-2">
+        <Label Content="model" HorizontalAlignment="Left" Margin="69,42,0,0" VerticalAlignment="Top"/>
+        <Label Content="prijs" HorizontalAlignment="Left" Margin="69,343,0,0" VerticalAlignment="Top" Width="83"/>
+        <Label Content="accesoire" HorizontalAlignment="Left" Margin="69,261,0,0" VerticalAlignment="Top" Width="83"/>
+        <Label Content="kleur" HorizontalAlignment="Left" Margin="69,148,0,0" VerticalAlignment="Top" Width="67"/>
+        <ComboBox x:Name="cmxModel" HorizontalAlignment="Left" Margin="179,42,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cbxModel_SelectionChanged">
+            <ComboBoxItem Content="continental v8 8500 euro" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="convertible  72000" HorizontalAlignment="Left" Width="118.4"/>
+            <ComboBoxItem Content="mulsanne 65300" HorizontalAlignment="Left" Width="118.4"/>
+        </ComboBox>
+        <RadioButton x:Name="rbnBlauw" Content="blauw" HorizontalAlignment="Left" Margin="228,148,0,0" VerticalAlignment="Top" Checked="rbnBlauw_Checked"/>
+        <RadioButton x:Name="rbnGroen" Content="groen + 250 euro" HorizontalAlignment="Left" Margin="228,188,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbnRood" Content="rood + 700 euro" HorizontalAlignment="Left" Margin="228,168,0,0" VerticalAlignment="Top" Checked="rbnRood_Checked"/>
+        <CheckBox x:Name="cbxAudio" Content="bose audio speakers + 120 euro" HorizontalAlignment="Left" Margin="247,281,0,0" VerticalAlignment="Top"/>
+        <CheckBox  x:Name="cbxMatjes" Content="Deluxe matjess + 450 euro" HorizontalAlignment="Left" Margin="247,261,0,0" VerticalAlignment="Top"/>
+        <CheckBox  x:Name="cbxVelgen" Content="Aluminium velgen + 300" HorizontalAlignment="Left" Margin="247,301,0,0" VerticalAlignment="Top"/>
+        <Label  x:Name="lblPrijs"  Content="" HorizontalAlignment="Left" Margin="228,343,0,0" VerticalAlignment="Top" Width="318"/>
+        <Image x:Name="ImgKleur" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="163" Margin="423,119,0,0"/>
+
+    </Grid>
+</Window>

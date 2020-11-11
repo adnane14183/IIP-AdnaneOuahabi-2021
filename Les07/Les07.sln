@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleFaculteit", "Console
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSchrikkeljaar", "ConsoleSchrikkeljaar\ConsoleSchrikkeljaar.csproj", "{3ECE3582-0337-491F-9B1C-9D4D4ACFEE56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCarConfigurator", "WpfCarConfigurator\WpfCarConfigurator.csproj", "{A633503D-ADDE-444C-A436-313A7C29D16E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTemperatuur", "ConsoleTemperatuur\ConsoleTemperatuur.csproj", "{9C8EA201-78A7-4C80-B226-2F8FAB2B8628}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{3ECE3582-0337-491F-9B1C-9D4D4ACFEE56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ECE3582-0337-491F-9B1C-9D4D4ACFEE56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ECE3582-0337-491F-9B1C-9D4D4ACFEE56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A633503D-ADDE-444C-A436-313A7C29D16E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A633503D-ADDE-444C-A436-313A7C29D16E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A633503D-ADDE-444C-A436-313A7C29D16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A633503D-ADDE-444C-A436-313A7C29D16E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C8EA201-78A7-4C80-B226-2F8FAB2B8628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8EA201-78A7-4C80-B226-2F8FAB2B8628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8EA201-78A7-4C80-B226-2F8FAB2B8628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8EA201-78A7-4C80-B226-2F8FAB2B8628}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

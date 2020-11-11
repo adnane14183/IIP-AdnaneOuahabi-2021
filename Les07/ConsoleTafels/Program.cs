@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,11 +11,6 @@ namespace ConsoleTafels
     {
         static private void DrukTafel(int getal, int lengte)
         {
-            Console.Write("geef een getal: ");
-            getal = Convert.ToInt32(Console.ReadLine());
-            Console.Write("geef een lengte: ");
-            lengte = Convert.ToInt32(Console.ReadLine());
-
             for (int multiplier = 1; multiplier <= lengte; multiplier++)
             {
                 Console.WriteLine("{0} * {1} = {2}", getal, multiplier, (getal * multiplier));
@@ -23,7 +19,11 @@ namespace ConsoleTafels
         }
         static void Main(string[] args)
         {
-
+            Console.Write("geef een getal: ");
+            int getal = Convert.ToInt32(Console.ReadLine());
+            Console.Write("geef een lengte: ");
+            int lengte = Convert.ToInt32(Console.ReadLine());
+            DrukTafel(getal,lengte);
         }
             
         }

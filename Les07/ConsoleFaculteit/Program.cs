@@ -7,22 +7,28 @@ using System.Threading.Tasks;
 namespace ConsoleFaculteit
 {
     class Program
-    {
-        static void Main(string[] args)
+    {private static int  Faculteit (int n)
         {
             int fac = 1;
 
             Console.WriteLine("bereken faculteit");
             Console.WriteLine();
             Console.Write("geef een geheel getal: ");
-            int getal = Convert.ToInt32(Console.ReadLine());
+            n = Convert.ToInt32(Console.ReadLine());
 
-            for (int i = 1; i <= getal; i++)
+            for (int i = 1; i <= n; i++)
             {
                 fac = fac * i;
             }
-            Console.WriteLine("De faculteit is " + fac);
+            return n;
+        }
+        static void Main(string[] args)
+        {
+            int n = Faculteit();
+
+            Console.WriteLine("De faculteit is " + facn);
             Console.ReadLine();
         }
+        
         }
-}
+    }
