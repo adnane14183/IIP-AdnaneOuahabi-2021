@@ -28,9 +28,7 @@ namespace ConsoleFaculteit
             Console.WriteLine("De faculteit is " + Faculteit(n));
             Console.ReadLine();
         }
-         // fac = nummer
-         // i + uitkomst
-         // n = getal
+        
 
 
         }
