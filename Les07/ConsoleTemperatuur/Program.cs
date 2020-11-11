@@ -54,7 +54,7 @@ namespace ConsoleTemperatuur
                     Console.WriteLine("celsius: " + c);
                 }
 
-
+                //
             } while (keuze != "x");
         }
     }

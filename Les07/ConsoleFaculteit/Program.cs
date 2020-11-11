@@ -11,24 +11,27 @@ namespace ConsoleFaculteit
         {
             int fac = 1;
 
-            Console.WriteLine("bereken faculteit");
-            Console.WriteLine();
-            Console.Write("geef een geheel getal: ");
-            n = Convert.ToInt32(Console.ReadLine());
-
             for (int i = 1; i <= n; i++)
             {
                 fac = fac * i;
             }
-            return n;
+            return fac;
         }
         static void Main(string[] args)
         {
-            int n = Faculteit();
+            Console.WriteLine("bereken faculteit");
+            Console.WriteLine();
+            Console.Write("geef een geheel getal: ");
+            int n = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("De faculteit is " + facn);
+
+            Console.WriteLine("De faculteit is " + Faculteit(n));
             Console.ReadLine();
         }
-        
+         // fac = nummer
+         // i + uitkomst
+         // n = getal
+
+
         }
     }
