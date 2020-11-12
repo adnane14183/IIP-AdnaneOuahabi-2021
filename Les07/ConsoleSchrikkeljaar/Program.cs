@@ -9,20 +9,9 @@ namespace ConsoleSchrikkeljaar
 {
     class Program
     {
-        static void Main(string[] args)
+        private static void schrikkeljaar(int jaartal)
         {
-            int jaar = 0;
-            Console.WriteLine("SCHRIKKELJAAR");
-            Console.WriteLine("=============");
-            
-           
-
-            do
-            {
-                Console.Write("geef een getal: ");
-
-                 jaar = Convert.ToInt32(Console.ReadLine());
-                if ((jaar % 4 == 0) && (jaar % 100 != 0) || (jaar % 400 == 0))
+                if ((jaartal % 4 == 0) && (jaartal % 100 != 0) || (jaartal % 400 == 0))
                 {
                     Console.WriteLine("Dit is een schrikkeljaar");
                 }
@@ -31,8 +20,21 @@ namespace ConsoleSchrikkeljaar
                 {
                     Console.WriteLine("Dit is geen schrikkeljaar");
                 }
-            } while (jaar != 0 );
+        }
+        static void Main(string[] args)
+        {
+             int jaartal = 0;
 
+            Console.WriteLine("SCHRIKKELJAAR");
+            Console.WriteLine("=============");
+            do
+            {
+                Console.Write("geef een jaartal: ");
+                jaartal = Convert.ToInt32(Console.ReadLine());
+                schrikkeljaar(jaartal);
+
+            } while ( jaartal != 0);
+           
             Console.ReadLine();
         }
     }

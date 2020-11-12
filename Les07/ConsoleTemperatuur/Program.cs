@@ -8,6 +8,28 @@ namespace ConsoleTemperatuur
 {
     class Program
     {
+        private static double cNaarf (double celsius)
+        {
+           
+            double fahrenheit = celsius * 1.8 + 32;
+            return fahrenheit;
+            
+        }
+        private static double fnaarc (double fahrenheit)
+        {
+            double celsius = ( fahrenheit - Convert.ToDouble(32)) / Convert.ToDouble(1.8);
+            return celsius;
+        }
+        private static double cNaark (double celsius)
+        {
+           double kelvin = celsius + 273.15;
+            return kelvin;
+        }
+        private static double knaarc ( double kelvin)
+        {
+            double celsius = kelvin - 273.15;
+            return celsius;
+        }
         static void Main(string[] args)
         {
             string keuze = " ";
@@ -26,32 +48,33 @@ namespace ConsoleTemperatuur
                 if (keuze == "a")
                 {
                     Console.WriteLine("Celsius: ");
-                    double temp = Convert.ToDouble(Console.ReadLine());
-                    double F = temp * 1.8 + 32;
-                    Console.WriteLine("fahrenheit: " + F);
+                    double celsius = Convert.ToDouble(Console.ReadLine());
+                    double fahrenheit = cNaarf(celsius);
+                    Console.WriteLine("fahrenheit: " + fahrenheit);
+
                 }
 
                 if (keuze == "b")
                 {
                     Console.WriteLine("Fahrenheit: ");
-                    double temp = Convert.ToDouble(Console.ReadLine());
-                    double c = (temp - Convert.ToDouble(32)) / Convert.ToDouble(1.8);
-                    Console.WriteLine("Celsius: " + c);
+                    double fahrenheit = Convert.ToDouble(Console.ReadLine());
+                    double celsius = fnaarc(fahrenheit);
+                    Console.WriteLine("Celsius: " + celsius);
                 }
 
                 if (keuze == "c")
                 {
                     Console.WriteLine("Celsius: ");
-                    double temp = Convert.ToDouble(Console.ReadLine());
-                    double k = temp + 273.15;
-                    Console.WriteLine("Kelvin: " + k);
+                    double celsius = Convert.ToDouble(Console.ReadLine());
+                    double kelvin = cNaark(celsius);
+                    Console.WriteLine("Kelvin: " + kelvin);
                 }
                 if (keuze == "d")
                 {
                     Console.WriteLine("kelvin: ");
-                    double temp = Convert.ToDouble(Console.ReadLine());
-                    double c = temp - 273.15;
-                    Console.WriteLine("celsius: " + c);
+                    double kelvin  = Convert.ToDouble(Console.ReadLine());
+                    double celsius = knaarc(kelvin);
+                    Console.WriteLine("celsius: " + celsius);
                 }
 
                 //
