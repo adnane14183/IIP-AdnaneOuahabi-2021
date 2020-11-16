@@ -32,7 +32,7 @@ namespace WpfBoodschappenlijst
 
         private void lbmBoodschappen_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            ListBoxItem selected = (ListBoxItem)lbmBoodschappen.SelectedItems;
+            ListBoxItem selected = (ListBoxItem)lbmBoodschappen.SelectedItem;
 
             lblBoodschappen.Content += selected.Content + " ";
         }
