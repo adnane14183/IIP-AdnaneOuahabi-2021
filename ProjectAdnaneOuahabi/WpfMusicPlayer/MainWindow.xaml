@@ -5,19 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfMusicPlayer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="483.057" Width="878.91">
-    <Grid>
-        <ListBox x:Name="ltbAfspeellijst" HorizontalAlignment="Left" Height="274" Margin="583,32,0,0" VerticalAlignment="Top" Width="260" SelectionChanged="ListBox_SelectionChanged"/>
-        <Button x:Name="btnSelect" Content="Selecteer uw liedje" HorizontalAlignment="Left" Margin="583,330,0,0" VerticalAlignment="Top" Width="260" Height="64" Click="btnSelect_Click"/>
-        <Label x:Name="lblVolume" Content="" HorizontalAlignment="Left" Margin="64,410,0,0" VerticalAlignment="Top" Width="87"/>
-        <Slider x:Name="sldMuziek" Value="100" Minimum="0" Maximum="100" HorizontalAlignment="Left" VerticalAlignment="Top" Width="494" Margin="10,376,0,0" Height="18" ValueChanged="sldMuziek_ValueChanged"/>
-        <Button x:Name="btnVorige" Content="vorige" HorizontalAlignment="Left" Margin="23,328,0,0" VerticalAlignment="Top" Width="80" Height="35" Click="btnVorige_Click"/>
-        <Button x:Name="btnPause" Content="pause" HorizontalAlignment="Left" Margin="126,328,0,0" VerticalAlignment="Top" Width="94" Height="35" Click="btnPause_Click"/>
-        <Button x:Name="btnPlay" Content="play" HorizontalAlignment="Left" Margin="246,326,0,0" VerticalAlignment="Top" Width="97" Height="38" Click="btnPlay_Click"/>
-        <Button x:Name="btnVolgende" Content="volgende" HorizontalAlignment="Left" Margin="383,328,0,0" VerticalAlignment="Top" Width="121" Height="38" Click="btnVolgende_Click"/>
-        <Button x:Name="btnMute" Content="Mute" HorizontalAlignment="Left" Margin="182,410,0,0" VerticalAlignment="Top" Width="78" Height="26" Click="btnMute_Click"/>
-        <Button x:Name="btnUnmute" Content="Unmute" HorizontalAlignment="Left" Margin="293,410,0,0" VerticalAlignment="Top" Width="94" Height="26" Click="btnUnmute_Click"/>
-        <Image x:Name="imgFoto" Source="image/musicplayer.jpg" Height="274" Margin="83,32,423.8,147.6"/>
+        Title="MainWindow" Height="599.815" Width="962.472" Foreground="#FF915B5B" Background="Black">
+    <Grid OpacityMask="Black">
+        <ListBox x:Name="ltbAfspeellijst" HorizontalAlignment="Left" Height="274" Margin="562,108,0,0" VerticalAlignment="Top" Width="353" SelectionChanged="ListBox_SelectionChanged" Background="#FF080809" Foreground="#FFFCF5F5"/>
+        <Button x:Name="btnSelect" Content="Selecteer uw liedje" HorizontalAlignment="Left" Margin="562,411,0,0" VerticalAlignment="Top" Width="353" Height="76" Click="btnSelect_Click" Background="#FFF91B1B" FontWeight="Bold" FontSize="20"/>
+        <Label x:Name="lblVolume" Content="" HorizontalAlignment="Left" Margin="24,513,0,0" VerticalAlignment="Top" Width="109" Foreground="#FFF3F3F3" Height="34" FontSize="16"/>
+        <Slider x:Name="sldMuziek" Value="100" Minimum="0" Maximum="100" HorizontalAlignment="Left" VerticalAlignment="Top" Width="494" Margin="24,469,0,0" Height="18" ValueChanged="sldMuziek_ValueChanged" Background="#FF0697E4" Foreground="#FFF4F4F4"/>
+        <Button x:Name="btnVorige" Content="vorige" HorizontalAlignment="Left" Margin="10,411,0,0" VerticalAlignment="Top" Width="80" Height="35" Click="btnVorige_Click" Background="#FF0098E3" Foreground="#FFEDE0E0" FontSize="16"/>
+        <Button x:Name="btnPause" Content="pause" HorizontalAlignment="Left" Margin="127,411,0,0" VerticalAlignment="Top" Width="94" Height="35" Click="btnPause_Click" FontSize="16" Background="#FF0098E3" Foreground="#FFEDE0E0"/>
+        <Button x:Name="btnPlay" Content="play" HorizontalAlignment="Left" Margin="255,409,0,0" VerticalAlignment="Top" Width="97" Height="38" Click="btnPlay_Click" Foreground="#FFEDE0E0" Background="#FF0098E3" FontSize="16"/>
+        <Button x:Name="btnVolgende" Content="volgende" HorizontalAlignment="Left" Margin="388,408,0,0" VerticalAlignment="Top" Width="121" Height="38" Click="btnVolgende_Click" Foreground="#FFE4DDE0" Background="#FF0697E4" FontSize="16"/>
+        <Button x:Name="btnMute" Content="Mute" HorizontalAlignment="Left" Margin="165,513,0,0" VerticalAlignment="Top" Width="79" Height="34" Click="btnMute_Click" Foreground="#FFDFDCE0" Background="#FF0098E3" FontSize="16"/>
+        <Button x:Name="btnUnmute" Content="Unmute" HorizontalAlignment="Left" Margin="292,513,0,0" VerticalAlignment="Top" Width="96" Height="34" Click="btnUnmute_Click" Foreground="#FFDDDBE0" Background="#FF0697E4" FontSize="16"/>
+        <Image x:Name="imgFoto" Source="image/musicplayer.jpg" Height="274" Margin="24,108,483,188.4"/>
+        <Label x:Name="lblPlaying" Content="" HorizontalAlignment="Left" Margin="24,64,0,0" VerticalAlignment="Top" Width="904" Height="39" Foreground="#FFFDF0F0" FontSize="20"/>
 
     </Grid>
 </Window>
