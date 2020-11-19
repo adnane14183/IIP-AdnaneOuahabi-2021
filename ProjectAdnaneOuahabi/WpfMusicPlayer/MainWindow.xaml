@@ -19,6 +19,7 @@
         <Button x:Name="btnUnmute" Content="Unmute" HorizontalAlignment="Left" Margin="292,513,0,0" VerticalAlignment="Top" Width="96" Height="34" Click="btnUnmute_Click" Foreground="#FFDDDBE0" Background="#FF0697E4" FontSize="16"/>
         <Image x:Name="imgFoto" Source="image/musicplayer.jpg" Height="274" Margin="24,108,483,188.4"/>
         <Label x:Name="lblPlaying" Content="" HorizontalAlignment="Left" Margin="24,64,0,0" VerticalAlignment="Top" Width="904" Height="39" Foreground="#FFFDF0F0" FontSize="20"/>
+        <Button x:Name="btnDelete" Content="delete song" HorizontalAlignment="Left" Margin="562,494,0,0" VerticalAlignment="Top" Width="353" Height="53" Click="btnDelete_Click"/>
 
     </Grid>
 </Window>

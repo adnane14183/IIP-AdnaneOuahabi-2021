@@ -117,5 +117,13 @@ namespace WpfMusicPlayer
             //vorige liedje in de afspeellijst
             ltbAfspeellijst.SelectedIndex += - 1;
         }
+
+        private void btnDelete_Click(object sender, RoutedEventArgs e)
+        {
+            ListBoxItem delete = new ListBoxItem();
+            ltbAfspeellijst.SelectedItems.Remove(delete);
+            player.settings.mute = true;
+        }
+            
     }
 }
