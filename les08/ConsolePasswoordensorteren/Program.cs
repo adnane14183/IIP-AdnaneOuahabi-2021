@@ -13,6 +13,7 @@ namespace ConsolePasswoordensorteren
 
             string nietOk = "";
             string Ok = "";
+            int welkePoging = 1;
 
             List<string> codes = new List<string>();
             codes.Add("klepketoe");
@@ -25,11 +26,12 @@ namespace ConsolePasswoordensorteren
             Console.WriteLine("volledige lijst:");
             foreach (string passw in codes)
             {
-                Console.WriteLine($"- {passw}");
+                Console.WriteLine($"{welkePoging++}. {passw}");
                 if (passw == "paswoord")
                 {
-                    nietOk = passw;
+                    nietOk = nietOk + " " + passw;
                 }
+               
 
                 else if (passw.Length < 9)
                 {
