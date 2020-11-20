@@ -50,5 +50,7 @@ namespace WpfKwistet
         {
             ltbLijst.Items.Clear();
         }
+
+       
     }
 }

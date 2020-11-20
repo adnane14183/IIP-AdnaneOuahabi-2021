@@ -10,14 +10,20 @@ namespace ConsoleFibonacci
     {
         static void Main(string[] args)
         {
-
-            int[] fibonacci = new int[10];
+            Console.Write("hoeveel fibonacci gettalen wil je? ");
+            int reeks = Convert.ToInt32(Console.ReadLine());
+            int[] fibonacci = new int[reeks];
             fibonacci[0] = 1;
             fibonacci[1] = 1;
 
-            for(int i = 5; i < fibonacci.Length; i++)
+            for(int i = 2; i < fibonacci.Length; i++)
             {
                 fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
+                
+            }
+           
+            for (int i = 0; i < fibonacci.Length; i++)
+            {
                 Console.WriteLine(fibonacci[i]);
             }
             Console.Read();
